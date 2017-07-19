@@ -1,0 +1,11 @@
+.heading {
+	text-align: center;
+}
+
+#questions {
+	text-align: center;
+}
+
+button:hover {
+	background-color: lightblue;
+}
