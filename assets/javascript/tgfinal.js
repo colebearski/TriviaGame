@@ -2,9 +2,9 @@
 $(document).ready(function() {
 	var index = 0;
 	var countdownTimer = {
-	time: 120,
+	time: 60,
 	reset: function() {
-		this.time = 120;
+		this.time = 60;
 		$('#timer').html('<h3>' + this.time + ' seconds remaining</h3>');
 	},
 
@@ -73,6 +73,7 @@ var trivia = [
 
 // Click to start
 $('#clickToStart').on('click', function populate() {
+
 
 // Begin timer
 countdownTimer.start();
